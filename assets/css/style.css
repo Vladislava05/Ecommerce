@@ -1,0 +1,150 @@
+body {
+    font-family: SegoeWPN-Light,MyriadPro-Regular,AdobeInvisFont;
+    font-size:43px;
+    font-weight: 700;
+    opacity:1;
+    font-style: normal;
+    
+    
+
+}
+*, 
+*:before,
+*:after{
+    box-sizing:border-box;
+}
+.container{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.header{
+    width: 100%;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    z-index:1000;
+}
+
+
+
+.header__inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav{
+    font-size: 19px;
+    
+}
+
+.nav__link{
+    display: inline-block;
+    vertical-align: top;
+    color:#565656;
+    text-decoration: none;
+    transition: color .2s linear;
+    margin: 0 15px;
+    position: relative;
+    left: 938px;
+    bottom: 42px;
+    
+    
+}
+
+.intro{
+    width: 100%;
+    height: 100vh;
+    background:
+    url("../images/Background@1X.png") center
+    no-repeat;
+}
+
+.banner{
+    position: relative;
+    width:100%;
+    
+    right:330px;
+    top:11px;
+   
+    
+    
+   
+}
+
+.circle{
+    position: relative;
+    
+    width: 335px;
+    height: 335px;
+    left:234px;
+    
+    bottom:550px;
+    opacity: 1;
+}
+
+.circle2{
+    position: relative;
+    
+    width: 395px;
+    height: 395px;
+    left:200px;
+    
+    bottom:918px;
+    opacity: 1;
+}
+
+.circle3{
+    position: relative;
+    
+    width: 453px;
+    height: 453px;
+    left:170px;
+    
+    bottom:1340px;
+    opacity: 1;
+}
+
+.iphone{
+    position: relative;
+    width: 256px;
+    height: 446px;
+    left: 580px;
+    bottom: 595px;
+}
+
+.globus{
+    position: relative;
+    width: 56px;
+    height: 56px;
+    left: 909px;
+    bottom: 975px;
+}
+
+.p{
+    position: relative;
+    opacity:0.8;
+    font-size: 21px;
+    font-family: SegoeWPN-Light,MyriadPro-Regular,AdobeInvisFont;
+    font-size:21px;
+    text-align:left;
+    left: 980px;
+    bottom: 1030px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.icon{
+    position: relative;
+    bottom: 1359px;
+    left: 1782px;
+    opacity:0.8784313725490196;
+}
+
+.under{
+    position: relative;
+    bottom: 1396px;
+    left: 1830px;
+    opacity:1;
+}
