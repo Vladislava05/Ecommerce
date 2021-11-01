@@ -4,7 +4,7 @@ body {
     font-weight: 700;
     opacity:1;
     font-style: normal;
-    
+    overflow:hidden;
     
 
 }
@@ -137,14 +137,27 @@ body {
 
 .icon{
     position: relative;
-    bottom: 1390px;
-    left: 1782px;
+    bottom: 1359px;
+    left: 1800px;
     opacity:0.8784313725490196;
 }
 
 .under{
     position: relative;
-    bottom: 1405px;
-    left: 1830px;
+    bottom: 1396px;
+    left: 1851px;
     opacity:1;
+}
+
+.icon2{
+    position: relative;
+    bottom: 1541px;
+    left: 1681px;
+    opacity:0.6784313725490196;
+}
+.icon3{
+    position: relative;
+    bottom: 1675px;
+    left: 1562px;
+    opacity:0.25882352941176473;
 }
